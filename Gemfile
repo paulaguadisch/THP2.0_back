@@ -33,11 +33,12 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
   gem 'rspec-rails'
-  gem 'rubocop'
+  gem 'rubocop', '~> 0.54.0', require: false
 end
 
 group :test do
   gem 'faker'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 group :development do
