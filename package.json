@@ -1,11 +1,11 @@
 {
   "husky": {
     "hooks": {
-      "pre-commit": "rubocop && annotate",
-      "pre-push": "rubocop && rspec"
+      "pre-commit": "rubocop",
+      "pre-push": "rubocop"
     }
   },
   "dependencies": {
-    "husky": "^0.14.3"
+    "husky": "^1.0.0-rc.13"
   }
 }
